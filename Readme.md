@@ -107,7 +107,7 @@ Mount all the partitions:
 * `mount /dev/nvme0n1p1 /mnt/boot/efi` -> Make sure nvme0n1p1 is EFI partition
 
 **Step 7**
-Before installing Arch you can specify which mirrors you want to use but I leave that for later. To install Arch execute the following command `pacstrap /mnt base base-devel refind-efi dialog wpa_supplicant`.
+Before installing Arch you can specify which mirrors you want to use but I leave that for later. To install Arch execute the following command `pacstrap /mnt base base-devel refind dialog wpa_supplicant`.
 
 You need "dialog wpa_supplicant" to be able to access wifi again with wifi-menu when you are done with the installation.
 
