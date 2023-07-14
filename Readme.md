@@ -28,7 +28,7 @@ I have resized my OS Windows partition with 500000 bytes, which leaves 447gb for
 Turn off the Fast Start-Up by [following this guide](https://www.windowscentral.com/how-disable-windows-10-fast-startup)
 
 **Step 4**
-Change Windows to use UTC time [following this guide](https://wiki.archlinux.org/index.php/System_time#UTC_in_Windows)
+Change Windows to use UTC time [following this guide](https://wiki.archlinux.org/index.php/System_time#UTC_in_Microsoft_Windows)
 
 **Step 5**
 Turn off UEFI secure boot and change "Fastboot" to "Thorough". While booting your machine press `F2` when you see the Dell logo. When the BIOS loads up select "Secure Boot" -> "Secure Boot Enable" and untick the box on that screen. Then select "POST Behaviour" -> "Fastboot" and change from "Minimal" to "Thorough".
